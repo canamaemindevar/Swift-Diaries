@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAC35D3228F83816008500DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC35D3128F83816008500DA /* AppDelegate.swift */; };
+		FAC35D3428F83816008500DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC35D3328F83816008500DA /* SceneDelegate.swift */; };
+		FAC35D3628F83816008500DA /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC35D3528F83816008500DA /* RootViewController.swift */; };
+		FAC35D3B28F83819008500DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC35D3A28F83819008500DA /* Assets.xcassets */; };
+		FAC35D3E28F83819008500DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC35D3C28F83819008500DA /* LaunchScreen.storyboard */; };
+		FAC35D4928F83819008500DA /* LoginProtocolOrientedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC35D4828F83819008500DA /* LoginProtocolOrientedTests.swift */; };
+		FAC35D5328F83819008500DA /* LoginProtocolOrientedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC35D5228F83819008500DA /* LoginProtocolOrientedUITests.swift */; };
+		FAC35D5528F83819008500DA /* LoginProtocolOrientedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC35D5428F83819008500DA /* LoginProtocolOrientedUITestsLaunchTests.swift */; };
+		FAC35D6328F8398F008500DA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC35D6228F8398F008500DA /* MainViewController.swift */; };
+		FAC35D6528F83A16008500DA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC35D6428F83A16008500DA /* LoginViewController.swift */; };
+		FAC35D6828F848A2008500DA /* RootViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC35D6728F848A2008500DA /* RootViewModel.swift */; };
+		FAC35D6B28F84EBB008500DA /* LoginStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC35D6A28F84EBB008500DA /* LoginStorageService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAC35D4528F83819008500DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAC35D2628F83816008500DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAC35D2D28F83816008500DA;
+			remoteInfo = LoginProtocolOriented;
+		};
+		FAC35D4F28F83819008500DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAC35D2628F83816008500DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAC35D2D28F83816008500DA;
+			remoteInfo = LoginProtocolOriented;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAC35D2E28F83816008500DA /* LoginProtocolOriented.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginProtocolOriented.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC35D3128F83816008500DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAC35D3328F83816008500DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FAC35D3528F83816008500DA /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		FAC35D3A28F83819008500DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAC35D3D28F83819008500DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAC35D3F28F83819008500DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC35D4428F83819008500DA /* LoginProtocolOrientedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginProtocolOrientedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC35D4828F83819008500DA /* LoginProtocolOrientedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProtocolOrientedTests.swift; sourceTree = "<group>"; };
+		FAC35D4E28F83819008500DA /* LoginProtocolOrientedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginProtocolOrientedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC35D5228F83819008500DA /* LoginProtocolOrientedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProtocolOrientedUITests.swift; sourceTree = "<group>"; };
+		FAC35D5428F83819008500DA /* LoginProtocolOrientedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProtocolOrientedUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FAC35D6228F8398F008500DA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		FAC35D6428F83A16008500DA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FAC35D6728F848A2008500DA /* RootViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewModel.swift; sourceTree = "<group>"; };
+		FAC35D6A28F84EBB008500DA /* LoginStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginStorageService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAC35D2B28F83816008500DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC35D4128F83819008500DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC35D4B28F83819008500DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAC35D2528F83816008500DA = {
+			isa = PBXGroup;
+			children = (
+				FAC35D3028F83816008500DA /* LoginProtocolOriented */,
+				FAC35D4728F83819008500DA /* LoginProtocolOrientedTests */,
+				FAC35D5128F83819008500DA /* LoginProtocolOrientedUITests */,
+				FAC35D2F28F83816008500DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAC35D2F28F83816008500DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAC35D2E28F83816008500DA /* LoginProtocolOriented.app */,
+				FAC35D4428F83819008500DA /* LoginProtocolOrientedTests.xctest */,
+				FAC35D4E28F83819008500DA /* LoginProtocolOrientedUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAC35D3028F83816008500DA /* LoginProtocolOriented */ = {
+			isa = PBXGroup;
+			children = (
+				FAC35D6928F84E9C008500DA /* StorageService */,
+				FAC35D6628F84890008500DA /* ViewModel */,
+				FAC35D6128F8397A008500DA /* View */,
+				FAC35D3128F83816008500DA /* AppDelegate.swift */,
+				FAC35D3328F83816008500DA /* SceneDelegate.swift */,
+				FAC35D3A28F83819008500DA /* Assets.xcassets */,
+				FAC35D3C28F83819008500DA /* LaunchScreen.storyboard */,
+				FAC35D3F28F83819008500DA /* Info.plist */,
+			);
+			path = LoginProtocolOriented;
+			sourceTree = "<group>";
+		};
+		FAC35D4728F83819008500DA /* LoginProtocolOrientedTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAC35D4828F83819008500DA /* LoginProtocolOrientedTests.swift */,
+			);
+			path = LoginProtocolOrientedTests;
+			sourceTree = "<group>";
+		};
+		FAC35D5128F83819008500DA /* LoginProtocolOrientedUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAC35D5228F83819008500DA /* LoginProtocolOrientedUITests.swift */,
+				FAC35D5428F83819008500DA /* LoginProtocolOrientedUITestsLaunchTests.swift */,
+			);
+			path = LoginProtocolOrientedUITests;
+			sourceTree = "<group>";
+		};
+		FAC35D6128F8397A008500DA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FAC35D3528F83816008500DA /* RootViewController.swift */,
+				FAC35D6428F83A16008500DA /* LoginViewController.swift */,
+				FAC35D6228F8398F008500DA /* MainViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FAC35D6628F84890008500DA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FAC35D6728F848A2008500DA /* RootViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FAC35D6928F84E9C008500DA /* StorageService */ = {
+			isa = PBXGroup;
+			children = (
+				FAC35D6A28F84EBB008500DA /* LoginStorageService.swift */,
+			);
+			path = StorageService;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAC35D2D28F83816008500DA /* LoginProtocolOriented */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC35D5828F83819008500DA /* Build configuration list for PBXNativeTarget "LoginProtocolOriented" */;
+			buildPhases = (
+				FAC35D2A28F83816008500DA /* Sources */,
+				FAC35D2B28F83816008500DA /* Frameworks */,
+				FAC35D2C28F83816008500DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoginProtocolOriented;
+			productName = LoginProtocolOriented;
+			productReference = FAC35D2E28F83816008500DA /* LoginProtocolOriented.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAC35D4328F83819008500DA /* LoginProtocolOrientedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC35D5B28F83819008500DA /* Build configuration list for PBXNativeTarget "LoginProtocolOrientedTests" */;
+			buildPhases = (
+				FAC35D4028F83819008500DA /* Sources */,
+				FAC35D4128F83819008500DA /* Frameworks */,
+				FAC35D4228F83819008500DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAC35D4628F83819008500DA /* PBXTargetDependency */,
+			);
+			name = LoginProtocolOrientedTests;
+			productName = LoginProtocolOrientedTests;
+			productReference = FAC35D4428F83819008500DA /* LoginProtocolOrientedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAC35D4D28F83819008500DA /* LoginProtocolOrientedUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC35D5E28F83819008500DA /* Build configuration list for PBXNativeTarget "LoginProtocolOrientedUITests" */;
+			buildPhases = (
+				FAC35D4A28F83819008500DA /* Sources */,
+				FAC35D4B28F83819008500DA /* Frameworks */,
+				FAC35D4C28F83819008500DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAC35D5028F83819008500DA /* PBXTargetDependency */,
+			);
+			name = LoginProtocolOrientedUITests;
+			productName = LoginProtocolOrientedUITests;
+			productReference = FAC35D4E28F83819008500DA /* LoginProtocolOrientedUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAC35D2628F83816008500DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					FAC35D2D28F83816008500DA = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					FAC35D4328F83819008500DA = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = FAC35D2D28F83816008500DA;
+					};
+					FAC35D4D28F83819008500DA = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = FAC35D2D28F83816008500DA;
+					};
+				};
+			};
+			buildConfigurationList = FAC35D2928F83816008500DA /* Build configuration list for PBXProject "LoginProtocolOriented" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAC35D2528F83816008500DA;
+			productRefGroup = FAC35D2F28F83816008500DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAC35D2D28F83816008500DA /* LoginProtocolOriented */,
+				FAC35D4328F83819008500DA /* LoginProtocolOrientedTests */,
+				FAC35D4D28F83819008500DA /* LoginProtocolOrientedUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAC35D2C28F83816008500DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC35D3E28F83819008500DA /* LaunchScreen.storyboard in Resources */,
+				FAC35D3B28F83819008500DA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC35D4228F83819008500DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC35D4C28F83819008500DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAC35D2A28F83816008500DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC35D6328F8398F008500DA /* MainViewController.swift in Sources */,
+				FAC35D3628F83816008500DA /* RootViewController.swift in Sources */,
+				FAC35D6B28F84EBB008500DA /* LoginStorageService.swift in Sources */,
+				FAC35D3228F83816008500DA /* AppDelegate.swift in Sources */,
+				FAC35D6528F83A16008500DA /* LoginViewController.swift in Sources */,
+				FAC35D6828F848A2008500DA /* RootViewModel.swift in Sources */,
+				FAC35D3428F83816008500DA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC35D4028F83819008500DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC35D4928F83819008500DA /* LoginProtocolOrientedTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC35D4A28F83819008500DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC35D5528F83819008500DA /* LoginProtocolOrientedUITestsLaunchTests.swift in Sources */,
+				FAC35D5328F83819008500DA /* LoginProtocolOrientedUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAC35D4628F83819008500DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAC35D2D28F83816008500DA /* LoginProtocolOriented */;
+			targetProxy = FAC35D4528F83819008500DA /* PBXContainerItemProxy */;
+		};
+		FAC35D5028F83819008500DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAC35D2D28F83816008500DA /* LoginProtocolOriented */;
+			targetProxy = FAC35D4F28F83819008500DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAC35D3C28F83819008500DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAC35D3D28F83819008500DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAC35D5628F83819008500DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAC35D5728F83819008500DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAC35D5928F83819008500DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2MZZ36MSKF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LoginProtocolOriented/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = antalyalie.LoginProtocolOriented;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAC35D5A28F83819008500DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2MZZ36MSKF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LoginProtocolOriented/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = antalyalie.LoginProtocolOriented;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAC35D5C28F83819008500DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2MZZ36MSKF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = antalyalie.LoginProtocolOrientedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginProtocolOriented.app/LoginProtocolOriented";
+			};
+			name = Debug;
+		};
+		FAC35D5D28F83819008500DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2MZZ36MSKF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = antalyalie.LoginProtocolOrientedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginProtocolOriented.app/LoginProtocolOriented";
+			};
+			name = Release;
+		};
+		FAC35D5F28F83819008500DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2MZZ36MSKF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = antalyalie.LoginProtocolOrientedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LoginProtocolOriented;
+			};
+			name = Debug;
+		};
+		FAC35D6028F83819008500DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2MZZ36MSKF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = antalyalie.LoginProtocolOrientedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LoginProtocolOriented;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAC35D2928F83816008500DA /* Build configuration list for PBXProject "LoginProtocolOriented" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC35D5628F83819008500DA /* Debug */,
+				FAC35D5728F83819008500DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC35D5828F83819008500DA /* Build configuration list for PBXNativeTarget "LoginProtocolOriented" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC35D5928F83819008500DA /* Debug */,
+				FAC35D5A28F83819008500DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC35D5B28F83819008500DA /* Build configuration list for PBXNativeTarget "LoginProtocolOrientedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC35D5C28F83819008500DA /* Debug */,
+				FAC35D5D28F83819008500DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC35D5E28F83819008500DA /* Build configuration list for PBXNativeTarget "LoginProtocolOrientedUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC35D5F28F83819008500DA /* Debug */,
+				FAC35D6028F83819008500DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAC35D2628F83816008500DA /* Project object */;
+}

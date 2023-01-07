@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ZarOyunu" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="HAo-Gs-0Zb">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Zar At" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Yz-x7-0f8">
+                                <rect key="frame" x="137" y="155" width="140" height="58"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="zar1" translatesAutoresizingMaskIntoConstraints="NO" id="CTV-Uk-J7W">
+                                <rect key="frame" x="20" y="323" width="140" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZAJ-7c-uTK">
+                                <rect key="frame" x="137" y="592.5" width="140" height="66.5"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Çevir">
+                                    <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="40"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="zarAtBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vMH-3R-4km"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="zar1" translatesAutoresizingMaskIntoConstraints="NO" id="sYG-QI-eM4">
+                                <rect key="frame" x="254" y="323" width="140" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ZAJ-7c-uTK" firstAttribute="trailing" secondItem="2Yz-x7-0f8" secondAttribute="trailing" id="Oqg-gm-tDD"/>
+                            <constraint firstItem="2Yz-x7-0f8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="111" id="PIE-Sv-Zvx"/>
+                            <constraint firstItem="HAo-Gs-0Zb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Pf7-qc-phI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="HAo-Gs-0Zb" secondAttribute="bottom" id="SlY-HD-YzB"/>
+                            <constraint firstItem="ZAJ-7c-uTK" firstAttribute="leading" secondItem="2Yz-x7-0f8" secondAttribute="leading" id="cKL-oj-cr3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ZAJ-7c-uTK" secondAttribute="bottom" constant="203" id="f3Y-B4-QYc"/>
+                            <constraint firstItem="2Yz-x7-0f8" firstAttribute="centerX" secondItem="HAo-Gs-0Zb" secondAttribute="centerX" id="nY9-6l-YaW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HAo-Gs-0Zb" secondAttribute="trailing" id="sQX-ZY-28Y"/>
+                            <constraint firstItem="HAo-Gs-0Zb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="t06-9J-AqR"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="zarEkran1" destination="CTV-Uk-J7W" id="8Bm-hC-Ajs"/>
+                        <outlet property="zarEkran2" destination="sYG-QI-eM4" id="IBG-Em-EnZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="82.366071428571431"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1" width="1000" height="1000"/>
+        <image name="zar1" width="800" height="785"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
